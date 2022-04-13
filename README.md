@@ -7,6 +7,10 @@ Realizado em grupo com :
 - https://github.com/elielsondev
 
 ## Screenshots e gifs:
+![alt text](https://github.com/KelvinPichinini/TRYBE-RecipesApp/blob/master/s1.png "print 1") ![alt text](https://github.com/KelvinPichinini/TRYBE-RecipesApp/blob/master/s2.png "print 2")
+
+
+![alt text](https://github.com/KelvinPichinini/TRYBE-RecipesApp/blob/master/w1.gif "exemplo de funcionamento")
 
 
 ### Requisitos:

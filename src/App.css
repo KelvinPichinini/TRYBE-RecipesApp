@@ -1,6 +1,90 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: #c3ede1;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.login-title {
+  background-color: #c3ede1;
+}
+
+.object-cover{
+  object-fit: cover;
+  height: 225px;
+  width: 100%;
+}
+
+.btn-login {
+  background-color: #f29f4d;
+  border-color: black;
+  border-width: 2px;  
+  
+}
+
+.btn-inf {
+  background-color: #c3ede1;
+  border-color: black;
+  border-width: 2px;
+}
+
+.btn-filter {
+  background-color: #9cbeb4;
+  border-color: black;
+  border-width: 2px;
+}
+
+.selected{
+  background-color: #c3ede1;
+  border-bottom: none;
+}
+
+
+h4 {
+  display: inline;
+}
+
+.detail-img {
+  height: 30%;
+  width: 100%;
+}
+
+.recipe-video {
+  height: 20%;
+  margin-bottom: 10%;
+  margin-left: 2.5%;
+  padding: 2%;
+  width: 95%;
+}
+
+.input-rounded {
+  border-radius: 3px 10px;
+}
+
+
+.low-margin {
+  margin: 0.3%;
+}
+
+.img-git {
+  height: 40px;
+  width: 35px;
+}
+
+.img-done {
+  height: 100%;
+  width: 100%;
+}
+
 .meals {
   align-items: center;
-  background: #0fa36b;
+  background: #c3ede1;
   color: #464646;
   display: flex;
   flex-direction: column;
@@ -10,9 +94,63 @@
   width: 100%;
 }
 
+.social-btn {
+  height: 20px;
+  margin-bottom: 7px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.control {
+  justify-content: center;
+}
+
+.Footer {
+  background-color: #c3ede1;
+  width: 100%;
+  padding-right: 20px;
+}
+
 .rocksGlass {
   animation: shake 1s infinite ease;
   max-height: 80vh;
+}
+
+/* .header {
+  background-color: rgb(41, 128, 77);
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+/* .prof-btn {
+  background-color: rgb(41, 128, 77);
+  border: none;
+  cursor: pointer;
+} */
+
+
+/* .search-btn {
+  background-color: rgb(41, 128, 77);
+  border: none;
+} */
+
+.search-input {
+  border: none;
+  border-radius: 30px;
+  height: 30px;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+}
+
+.start-btn {
+  bottom: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%;
 }
 
 /*
